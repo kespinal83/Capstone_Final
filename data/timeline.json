@@ -1,0 +1,297 @@
+[
+  {
+  "id": 0,
+  "name": "Robotics TL Item 1",
+  "category": "Education",
+  "placeName": "Industry",
+  "country": "France",
+  "startDate": "2010-09",
+  "endDate": "2013-07",
+  "description":["The standard chunk of Lorem Ipsum used since the 1500s is",
+  " reproduced below for those interested. Sections 1.10.32 and 1.10.33 from",
+   "by Cicero are also reproduced in their exact original form, accompanied",
+   "by English versions from the 1914 translation by H. Rackham."],
+  "skills": [
+    "english",
+    "japanese",
+    "law",
+    "economics"
+  ]
+},
+{
+  "id": 1,
+  "name": "Robotics TL Item 2",
+  "category": "Education",
+  "placeName": "Nagoya University of Foreign Studies",
+  "country": "Japan",
+  "startDate": "2012-09",
+  "endDate": "2013-07",
+  "description": ["Japanese language classes JLPT N3, JLPT N2",
+  "Tourism & Hospitality",
+  "Economy",
+  "British law",
+  "Sociology"],
+  "skills": [
+    "english",
+    "japanese",
+    "law",
+    "economics",
+    "sociology",
+    "tourism industry"
+  ]
+},
+{
+  "id": 2,
+  "name": "Robotics TL Item 3",
+  "category": "Education",
+  "placeName": "Université de Grenoble",
+  "country": "France",
+  "startDate": "2016-09",
+  "endDate": "2018-07",
+  "description": ["Algorithms",
+  "Java",
+  "Web Dev",
+  "Systems & Networks",
+  "DB (SQL)",
+  "HCI",
+  "AI"],
+  "skills": [
+    "java",
+    "algorithms",
+    "javascript",
+    "php",
+    ".NET",
+    "SQL"
+  ]
+},
+{
+  "id": 3,
+  "name": "Robotics TL Item 4",
+  "category": "Work",
+  "placeName": "XX Company",
+  "country": "Japan",
+  "startDate": "2015-02",
+  "endDate": "2016-07",
+  "description": ["Web project planning",
+  "Budget prevision",
+  "Team and deadlines management",
+  "HTML",
+  "CSS",
+  "SCSS",
+  "Sass",
+  "Gulp",
+  "jQuery",
+  "GitLab",
+  "Drupal(7)",
+  "Events & Talks : CMS Summer Festival Osaka, Start Up Week End Nagahama Shiga, Drupal Cafe, Code for Shiga"],
+  "skills": [
+    "html",
+    "css",
+    "scss",
+    "javascript",
+    "jQuery",
+    "php",
+    "Drupal"
+  ]
+},
+{
+  "id": 4,
+  "name": "Robotics TL Item 5",
+  "category": "Work",
+  "placeName": "YY Company",
+  "country": "France",
+  "startDate": "2018-01",
+  "endDate": "2018-07",
+  "description": "Design and development of graphical solutions for HPC data analysis (D3.js)",
+  "skills": [
+    "html",
+    "css",
+    "sass",
+    "javascript",
+    "d3.js",
+    "Symfony"
+  ]
+},
+{
+  "id": 5,
+  "name": "Robotics TL Item 6",
+  "category": "Work",
+  "placeName": "ZZ Company",
+  "country": "France",
+  "startDate": "2018-09",
+  "endDate": "2019-01",
+  "description": "Development of an application for electrical pannels (Spring, Angular, MongoDB)",
+  "skills": [
+    "java",
+    "angular",
+    "mongoDB",
+    "mongoshell"
+  ]
+},
+{
+  "id": 6,
+  "name": "Robotics TL Item 7",
+  "category": "Work",
+  "placeName": "ZZ Company",
+  "country": "France",
+  "startDate": "2019-01",
+  "endDate": "2019-02",
+  "description": "Study to evaluate the impact of an application upgrade (SQL)",
+  "skills": [
+    "SQL"
+  ]
+},
+{
+  "id": 7,
+  "name": "Robotics TL Item 8",
+  "category": "Education",
+  "placeName": "Coursera",
+  "country": "France",
+  "startDate": "2018-10",
+  "endDate": "2018-11-29",
+  "description": "Courses : What is Data Science, Open tools for Data Science, Data Science Methodology, Databases and SQL for Data Science",
+  "skills": [
+    "Python",
+    "Jupyter Notebooks",
+    "SQL"
+  ]
+},
+{
+  "id": 8,
+  "name": "Robotics TL Item 9",
+  "category": "Education",
+  "placeName": "Coursera",
+  "country": "France",
+  "startDate": "2018-11-20",
+  "endDate": "2019-01-25",
+  "description": "Python for Data Science, Data Analysis with Python, Data Visualization with Python",
+  "skills": [
+    "Python",
+    "Jupyter Notebooks",
+    "Matplotlib",
+    "Numpy",
+    "Seaborn"
+  ]
+},
+{
+  "id": 9,
+  "name": "Robotics TL Item 10",
+  "category": "Education",
+  "placeName": "Coursera",
+  "country": "France",
+  "startDate": "2018-12-23",
+  "endDate": "2019-01-08",
+  "description": "Course about the process of managing data analysis and EDA",
+  "skills": [
+    "Data Analysis"
+  ]
+},
+{
+  "id": 10,
+  "name": "Robotics TL Item 11",
+  "category": "Education",
+  "placeName": "Coursera",
+  "country": "France",
+  "startDate": "2016-01-24",
+  "endDate": "2016-02-17",
+  "description": "Basics of Javascript language",
+  "skills": [
+    "Javascript"
+  ]
+},
+{
+  "id": 11,
+  "name": "Robotics TL Item 1",
+  "category": "Education",
+  "placeName": "Industry",
+  "country": "France",
+  "startDate": "2017-09",
+  "endDate": "2017-07",
+  "description":["The standard chunk of Lorem Ipsum used since the 1500s is",
+  " reproduced below for those interested. Sections 1.10.32 and 1.10.33 from",
+   "by Cicero are also reproduced in their exact original form, accompanied",
+   "by English versions from the 1914 translation by H. Rackham."],
+  "skills": [
+    "english",
+    "japanese",
+    "law",
+    "economics"
+  ]
+},
+{
+  "id": 12,
+  "name": "Robotics TL Item 2",
+  "category": "Education",
+  "placeName": "Nagoya University of Foreign Studies",
+  "country": "Japan",
+  "startDate": "2018-09",
+  "endDate": "2018-07",
+  "description": ["Japanese language classes JLPT N3, JLPT N2",
+  "Tourism & Hospitality",
+  "Economy",
+  "British law",
+  "Sociology"],
+  "skills": [
+    "english",
+    "japanese",
+    "law",
+    "economics",
+    "sociology",
+    "tourism industry"
+  ]
+},
+{
+  "id": 13,
+  "name": "Robotics TL Item 3",
+  "category": "Education",
+  "placeName": "Université de Grenoble",
+  "country": "France",
+  "startDate": "2020-09",
+  "endDate": "2020-07",
+  "description": ["Algorithms",
+  "Java",
+  "Web Dev",
+  "Systems & Networks",
+  "DB (SQL)",
+  "HCI",
+  "AI"],
+  "skills": [
+    "java",
+    "algorithms",
+    "javascript",
+    "php",
+    ".NET",
+    "SQL"
+  ]
+},
+{
+  "id": 14,
+  "name": "Robotics TL Item 4",
+  "category": "Work",
+  "placeName": "XX Company",
+  "country": "Japan",
+  "startDate": "2022-02",
+  "endDate": "2022-07",
+  "description": ["Web project planning",
+  "Budget prevision",
+  "Team and deadlines management",
+  "HTML",
+  "CSS",
+  "SCSS",
+  "Sass",
+  "Gulp",
+  "jQuery",
+  "GitLab",
+  "Drupal(7)",
+  "Events & Talks : CMS Summer Festival Osaka, Start Up Week End Nagahama Shiga, Drupal Cafe, Code for Shiga"],
+  "skills": [
+    "html",
+    "css",
+    "scss",
+    "javascript",
+    "jQuery",
+    "php",
+    "Drupal"
+  ]
+}
+]
