@@ -11,7 +11,7 @@ header, body {
 /*rotate-words*/
 
 .spinny-wrapper{
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
