@@ -208,12 +208,6 @@ header, body {
   opacity: .6;
 }
 
-.arcs {
-  opacity: .1;
-  stroke: gray;
-  stroke-width: 3;
-}
-
 .arc,
 .flyer{
   stroke-linejoin: round;

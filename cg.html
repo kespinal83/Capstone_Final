@@ -271,26 +271,6 @@ function position_labels() {
     });
 }
 
-function flying_arc(pts) {
-  var source = pts.geometry.coordinates[0],
-    target = pts.geometry.coordinates[1];
-
-  var mid1 = location_along_arc(source, target, .333);
-  var mid2 = location_along_arc(source, target, .667);
-  var result = [projection(source),
-  skyProjection(mid1),
-  skyProjection(mid2),
-  projection(target)]
-
-  // console.log(result);
-  return result;
-}
-
-function location_along_arc(start, end, loc) {
-  var interpolator = d3.geoInterpolate(start, end);
-  return interpolator(loc)
-}
-
 function dragged() {
   var o1 = [d3.event.x * sensitivity, -d3.event.y * sensitivity];
   o1[1] =
@@ -326,10 +306,6 @@ function refreshLandmarks() {
 function refreshFlyers() {
   svg.selectAll(".arc").attr("d", path);
 
-  svg.selectAll(".flyer")
-    .attr("d", function (d) { return swoosh(flying_arc(d)) })
-    .attr("stroke-dasharray", dash_size)
-    .attr("stroke-dashoffset", dash_offset);
 }
     </script>
       <svg>
@@ -345,11 +321,7 @@ function refreshFlyers() {
           <radialGradient cx="50%" cy="40%" id="globe_shading">
             <stop offset="50%" stop-color="#9ab" stop-opacity="0" />
             <stop offset="100%" stop-color="#3e6184" stop-opacity="0.3" />
-          </radialGradient>
-          <radialGradient cx="50%" cy="50%" id="drop_shadow">
-            <stop offset="20%" stop-color="#000" stop-opacity="0.5" />
-            <stop offset="100%" stop-color="#000" stop-opacity="0" />
-          </radialGradient>
+          </radialGradient>       
           <filter id="glow">
             <fegaussianblur class="blur" result="shadowBlur" stddeviation="2"></fegaussianblur>
             <femerge>
