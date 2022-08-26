@@ -27,7 +27,7 @@ header, body {
 .spinny-words span{
   position: absolute;
   font-weight: bold;
-  top: 137px;
+  top: 136px;
   opacity: 0;    
   animation: rotateWord 18s linear infinite 0s;
 }
@@ -214,14 +214,8 @@ header, body {
   stroke-width: 3;
 }
 
-.flyers {
-  stroke-width: 1;
-  opacity: 5;
-  stroke: #ff4719;
-}
-
 .arc,
-.flyer {
+.flyer{
   stroke-linejoin: round;
   fill: none;
 }
