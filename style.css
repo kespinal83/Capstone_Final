@@ -27,7 +27,7 @@ header, body {
 .spinny-words span{
   position: absolute;
   font-weight: bold;
-  top: 140px;
+  top: 137px;
   opacity: 0;    
   animation: rotateWord 18s linear infinite 0s;
 }
@@ -82,7 +82,7 @@ header, body {
 .section#one {
   background-color: #232c3b;
   margin-top: -8%;
-  margin-left: 30%;
+  margin-left: 25%;
   margin-right: -1%;
   margin-bottom: 0%;
   height: 700px;
