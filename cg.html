@@ -11,8 +11,10 @@
     <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
+<div id="hover-content"></div>
 <body>
     <script>
+
 var width = 1000,
     height = 650,
     radius = 600,
@@ -186,8 +188,6 @@ function ready(error, world, places, links) {
     .attr("stroke-dashoffset", dash_offset);
 }
 
-
-
 function dash_size(d, i, group) {
 
   var arr_t = path_intersecion(group[i]),
@@ -268,7 +268,8 @@ function position_labels() {
     .style("display", function (d) {
       var d = d3.geoDistance(d.geometry.coordinates, centerPos);
       return d > 1.57 ? "none" : "inline";
-    });
+    })
+        ;
 }
 
 function dragged() {
@@ -307,6 +308,7 @@ function refreshFlyers() {
   svg.selectAll(".arc").attr("d", path);
 
 }
+
     </script>
       <svg>
         <defs>
