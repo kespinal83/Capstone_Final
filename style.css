@@ -183,7 +183,7 @@ header, body {
 
 .countries path:hover {
   stroke: rgba(0, 0, 0, .6);
-  fill-opacity: .3;
+  fill-opacity: .4;
   fill: #ff4719;
 }
 
@@ -196,7 +196,7 @@ header, body {
 
 .labels {
   font: 8px sans-serif;
-  fill: black;
+  fill: white;
   opacity: .5;
 }
 
