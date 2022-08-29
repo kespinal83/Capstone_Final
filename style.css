@@ -228,7 +228,7 @@ header, body {
 
 /* section#two viz=timeline */
 .timeline-base {
-  stroke: #444;
+  stroke: #ccc;
   stroke-width: 0.2;
 }
 .circle-category {
@@ -270,7 +270,7 @@ header, body {
 .text-place {
   font-family: 'Plus Jakarta Sans', sans-serif;;
   font-size: 18px;
-  fill: #888;
+  fill: #ccc;
   margin-top: 10px;
 }
 .text-place.hovered,
@@ -292,7 +292,7 @@ header, body {
   font-weight: lighter;
 }
 .text-desc {
-  color: #444;
+  color: #ccc;
   margin-top: 20px;
 }
 .close-icon {
