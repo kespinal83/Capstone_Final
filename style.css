@@ -294,6 +294,8 @@ header, body {
 .text-desc {
   color: #ccc;
   margin-top: 20px;
+  margin-right: 400px;
+  font-size: 14px;
 }
 .close-icon {
   color: #ccc;

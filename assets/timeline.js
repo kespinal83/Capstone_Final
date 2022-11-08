@@ -27,12 +27,13 @@ function drawChart() {
     }
 
     let scaleLine = d3.scaleLinear()
-      .domain([1285891200000, Date.now()])
-      .range([getLineVal('min') + 20 , getLineVal('max') - 100]); // OFFSET = 20
+      .domain([1, Date.now()])
+//      .domain([1285891200000, Date.now()]) Update for Time Scale
+      .range([getLineVal('min') + 150 , getLineVal('max') - 200]); // OFFSET = 20
 
     let scaleCircle = d3.scaleLinear()
-      .domain([moment.duration(3,'d').asMilliseconds(), moment.duration(10,'y').asMilliseconds()])
-      .range([10, 200]);
+      .domain([moment.duration(3,'d').asMilliseconds(), moment.duration(20,'y').asMilliseconds()])
+      .range([1, 100]);
 
     let allGroups = svg.selectAll('g').data(data);
     let group = allGroups.enter().append('g').attr('id', function(data){return 'group-' + data.id});
